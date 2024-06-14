@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="admin.css">
+        <link rel="stylesheet" href="shop.css">
+    </head>
+    <body>
+        <div class="auth">
+            <form>
+                <input type="text" name="" id="login" placeholder="Login">
+                <input type="text" name="" id="password" placeholder="Password">
+                <p></p>
+                <button>Enter</button>
+            </form>
+        </div>
+        <header class="hdr">
+            <a class="hdr_btn" href="index.html"><img class="logo" src="logo.png"></a>
+            <a class="hdr_btn" href="shop.html">SHOP</a>
+        </header>
+        <div><h1 class="linelbl">Administrator page</h1></div>
+        <main>
+            <section class="home__products">
+                <div class="container">
+                    <div class="home__products-title">
+                        <h1>Products</h1>
+                        <button id="add-prod">Add product</button>
+                    </div>
+                    <div class="row home__products-admin">
+    
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="ftr">
+            <a class="ftr_btn" href="">Contact us</a>
+            <a class="ftr_btn" href="">Terms of use</a>
+            <a class="ftr_btn" href="">Privacy</a>
+        </footer>
+        <div class="modal hide">
+            <div class="modal__window">
+                <h2>Add product</h2>
+    
+                <form>
+                    <input type="text" required placeholder="Product type">
+                    <input type="text" required placeholder="Product Img link">
+                    <input type="text" required placeholder="Product Title">
+                    <input type="text" required placeholder="Product Descr">
+                    <input type="number" required placeholder="Product Price">
+                    <button>Save</button>
+                </form>
+    
+                <button class="modal__close">x</button>
+            </div>
+        </div>
+    </body>
+    <script src="admin.js"></script>
+</html>

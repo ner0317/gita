@@ -1,0 +1,52 @@
+.tuner_menu{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 40px;
+    height: 1200px;
+    background: url(OC1Y900.jpg) top center / 200px 200px repeat;
+}
+
+.fender_single_coil_pickup{
+    width: 360px;
+    height: 82px;
+}
+
+.strings{
+    border: none;
+    width: 1px;
+    z-index: 1;
+    background: url(ogt-2.png) ;
+}
+
+.strings:active{
+    box-shadow: #ffffff 0px 0px 10px;
+}
+
+.pickguard{
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    top: 400px;
+    bottom: 10px;
+    border: 7px solid #131313;
+    border-radius: 60px 5px 60px 5px;
+    background: linear-gradient(#000000,#2c2c2c,
+                                #9c9c9c,#131313);
+}
+
+.tune_name{
+    color: #808080da;
+    text-shadow: #444444 0px 7px 7px;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 170px;
+}
+
+audio{
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}

@@ -1,0 +1,103 @@
+.main_1{
+    background: url(electric-guitar-still-life.jpg);
+}
+.info_1{
+    text-align: center;
+    background-color: #1f1f1f;
+    color: white;
+    align-items: center;
+}
+span{
+    text-align: left;
+}
+span h3{
+    font-size: small;
+    width: 50%;
+}
+span ul{
+    font-size: small;
+    width: 50%;
+}
+.fcs_menu{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.fcs_btns{
+    width: 120px;
+    height: 480px;
+    transition: all 0.7s;
+    border: none;
+}
+
+.fcs_btns:focus{
+    width: 600px;
+}
+
+.image_1{
+    background: url(img/1.png);
+}
+
+.image_2{
+    background: url(img/2.png);
+}
+
+.image_3{
+    background: url(img/3.png);
+}
+
+.image_4{
+    background: url(img/5.png);
+}
+
+.image_5{
+    background: url(img/4.png);
+}
+
+.image_6{
+    width: 100%;
+}
+@media (max-width: 576px){
+    .fcs_menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fcs_btns{
+        height: 60px;
+        width: 360px;
+        background-size: cover;
+    }
+    .fcs_btns:focus{
+        height: 290px;
+        width: 360px;
+    }
+    .sketchfab-embed-wrapper{
+        display: none;
+    }
+    iframe{
+        display: none;
+    }
+}
+
+.about_us{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f1f1f;
+    text-align: center;
+}
+
+iframe{
+    width: 640px;
+    height: 1000px;
+}
+
+.about_us_info{
+    color: white;
+    font-size: 30px;
+}
+p{
+    padding-top: 30px;
+    width: 280px;
+}
